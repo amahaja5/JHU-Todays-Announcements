@@ -1,4 +1,6 @@
-JHU-Todays-Announcements
+JHU Today's Announcements
 ========================
 
 Android app that displays daily announcements and events at Johns Hopkins University. The app can be downloaded on Google Play at https://play.google.com/store/apps/details?id=com.hophacks.announcements.
+
+Developed by Upas Narayan, Jesse Xing, Tai-Ting (David) Hsieh, and Zhuo (Ben) Zhang
