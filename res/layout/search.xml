@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="9dp"
+        android:ems="10"
+        android:hint="Search for Events..." >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_x="249dp"
+        android:layout_y="6dp"
+        android:drawableLeft="@drawable/ic_search_category_default">
+    </Button>
+    
+    <ListView
+        android:id="@+id/id_search_view"
+        android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		android:layout_y="60dp"
+  		android:divider="@android:color/transparent"
+  		android:dividerHeight="10.0sp"/>
+   	
+    
+
+</AbsoluteLayout>
